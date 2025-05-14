@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+# Pedra, Papel ou Tesoura
+
+A Pen created on CodePen.
+
+Original URL: [https://codepen.io/wftypicb-the-lessful/pen/pvoGvyW](https://codepen.io/wftypicb-the-lessful/pen/pvoGvyW).
+
+=======
 # Jokenpô Web
 
 Um jogo de Pedra, Papel e Tesoura interativo para jogar diretamente no seu navegador.
@@ -26,3 +34,4 @@ Desenvolvido como parte do desafio da Imersão DEV da Alura (ano 2025).
 ---
 
 Divirta-se jogando
+>>>>>>> fc872f1279413f77332b78db06c045cbfd3d4822
