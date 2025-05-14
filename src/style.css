@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Para organizar os filhos em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente o container principal */
+}
+
+/* Container principal */
+.container {
+    background: url('https://images.unsplash.com/photo-1559584896-8c491989a949?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column; /* Conteúdo interno em coluna */
+    align-items: center; /* Centraliza itens internos horizontalmente */
+    justify-content: center; /* Centraliza itens internos verticalmente */
+    width: 80%; /* Largura um pouco menor para respiro */
+    max-width: 600px; /* Largura máxima para telas maiores */
+    border-radius: 12px;
+    overflow: hidden; /* Garante que o conteúdo interno respeite o border-radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+}
+
+/* Pontuação */
+.score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo um pouco mais opaco */
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10; /* Garante que a pontuação fique acima do container */
+}
+
+.score p {
+    margin: 5px 0;
+}
+
+/* Conteúdo principal (título, botões, resultado) */
+.content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85); /* Fundo um pouco mais opaco */
+    padding: 40px;
+    border-radius: inherit; /* Herda o border-radius do container */
+    width: 100%; /* O conteúdo ocupa toda a largura do container */
+}
+
+.content h1 {
+    color: #6d8ce8;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Botões */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: #839deb;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #577ae4;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #777;
+    border-top: 1px solid #eee;
+    width: 100%;
+    margin-top: 20px; /* Espaço acima do footer */
+}
